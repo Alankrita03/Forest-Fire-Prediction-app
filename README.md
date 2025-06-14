@@ -7,12 +7,11 @@ This project predicts the likelihood of wildfires based on environmental feature
 ## 📂 Project Structure
 
 ```
-├── app.py                # Streamlit application
+├── app.py               # Streamlit application
 ├── model.h5             # Trained TensorFlow model
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project documentation (this file)
-├── wildfire_dataset.csv # Dataset file (downloaded from Kaggle)
-└── other_files/         # Additional assets or scripts (if any)
+├── wildfire_dataset     # Dataset file (downloaded from Kaggle)
 ```
 
 ---
@@ -23,7 +22,7 @@ All required Python libraries are listed in the `requirements.txt` file. Key lib
 
 - **Streamlit**: For the web application UI
 - **TensorFlow**: For the ML model
-- **Pillow (PIL)**: For image handling (if used)
+- **Pillow (PIL)**: For image handling
 - **NumPy**: For numerical operations
 
 Install them using:
@@ -53,18 +52,12 @@ streamlit run app.py
 
 ## 🔍 Features
 
-- **Wildfire Prediction**: Predict wildfire possibility based on input environmental data.
+- **Wildfire Prediction**: Predict wildfire possibility based on input image
 - **Interactive Interface**: Simple Streamlit-based UI.
-- **Pre-trained Model**: TensorFlow model loaded from `model.h5`.
+- **Pre-trained Model**: TensorFlow model 
 
 ---
 
-## 📌 Notes
-
-- Ensure the dataset file (`wildfire_dataset.csv`) is present in the expected directory or adjust the path in the script.
-- Modify `requirements.txt` if additional packages are added later.
-
----
 
 ## 🙌 Acknowledgments
 

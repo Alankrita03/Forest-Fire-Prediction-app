@@ -1,6 +1,10 @@
 # Wildfire Prediction Model
 
-This project predicts the likelihood of wildfires based on environmental features using a Machine Learning model built with TensorFlow. The model is wrapped in an interactive web application using Streamlit.
+This project predicts the likelihood of wildfires based on satellite images of forests using a Machine Learning model built with TensorFlow. The model is wrapped in an interactive web application using Streamlit.
+
+---
+## Web Application Link
+ Link: https://forest-fire-prediction-app-twrs4cwtgmvonuzspdegxi.streamlit.app/
 
 ---
 
